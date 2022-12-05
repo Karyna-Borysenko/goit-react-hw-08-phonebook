@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux';
-import { addContact } from 'redux/operations';
-import { selectContacts } from 'redux/selectors';
+import { addContact } from 'redux/contacts/operations';
+import { selectContacts } from 'redux/contacts/selectors';
 import Notiflix from 'notiflix';
 
 import { Form, Header, Input, Submit } from './ContactForm.styled';
@@ -25,7 +25,7 @@ export default function ContactForm() {
       dispatch(
         addContact({
           name: form.elements.name.value,
-          phone: form.elements.number.value,
+          number: form.elements.number.value,
         })
       );
     }

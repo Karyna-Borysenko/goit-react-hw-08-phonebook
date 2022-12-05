@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { contactsFilter } from 'redux/contactsSlice';
-import { selectFilter } from 'redux/selectors';
+import { contactsFilter } from 'redux/contacts/contactsSlice';
+import { selectFilter } from 'redux/contacts/selectors';
 
 import { Text, Container, Input } from './Filter.styled';
 
@@ -11,7 +11,6 @@ export const Filter = () => {
 
   //----Обновляем фильтр----
   function changeFilter(event) {
-
     dispatch(contactsFilter(event.currentTarget.value));
   }
 
