@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreact_homework_template=self.webpackChunkreact_homework_template||[]).push([[526],{4526:function(n,e,t){t.r(e),t.d(e,{default:function(){return f}});var o,a=t(168),r=t(3842).Z.h1(o||(o=(0,a.Z)(["\n  display: flex;\n  justify-content: center;\n  padding: 20px;\n  font-size: 28px;\n  font-weight: 400;\n  font-family: Andale Mono, monospace;\n  color: #2f9e99;\n"]))),c=t(3329);function f(){return(0,c.jsx)(r,{children:"Hey!\ud83d\udc4b I'm your best contact storage app \ud83d\ude0a"})}}}]);
+//# sourceMappingURL=526.763618e6.chunk.js.map
