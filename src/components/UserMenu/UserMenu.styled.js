@@ -8,4 +8,23 @@ export const Wrapper = styled.div`
 
 export const UserName = styled.p`
   font-weight: 700;
+  font-size: 24px;
+`;
+
+export const Button = styled.button`
+  display: inline-flex;
+  padding: 8px;
+  align-items: center;
+
+  font-size: 25px;
+  font-weight: 700;
+  border-radius: 25px;
+  border: 1px solid rgb(47, 158, 153);
+  color: #2a363b;
+  cursor: pointer;
+
+  :hover,
+  :focus {
+    color: #f69a73;
+  }
 `;
